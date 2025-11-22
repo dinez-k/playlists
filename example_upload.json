@@ -1,0 +1,61 @@
+{
+  "name": "My Music Collection",
+  "songs": [
+    {
+      "file_index": 0,
+      "title": "Awesome Song",
+      "artist": "Great Artist",
+      "album": "Best Hits",
+      "duration": 240
+    },
+    {
+      "file_index": 1,
+      "title": "Another Hit",
+      "artist": "Cool Band",
+      "album": "Greatest Album",
+      "duration": 180
+    }
+  ],
+  "children": [
+    {
+      "name": "Rock Collection",
+      "songs": [
+        {
+          "file_index": 2,
+          "title": "Rock Anthem",
+          "artist": "Rock Band",
+          "album": "Rock Forever",
+          "duration": 300
+        }
+      ],
+      "children": [
+        {
+          "name": "Classic Rock",
+          "songs": [
+            {
+              "file_index": 3,
+              "title": "70s Classic",
+              "artist": "Legends",
+              "album": "Golden Era",
+              "duration": 360
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Jazz Collection",
+      "songs": [
+        {
+          "file_index": 4,
+          "title": "Smooth Jazz",
+          "artist": "Jazz Master",
+          "album": "Jazz Nights",
+          "duration": 420
+        }
+      ],
+      "children": []
+    }
+  ]
+}
